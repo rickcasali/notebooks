@@ -1,0 +1,55 @@
+{
+    "canvas_title": "Figure",
+    "axes": [
+        {
+            "axis_index": 0,
+            "title": "Sample Experiment",
+            "xlabel": "Time (s)",
+            "ylabel": "Voltage (V)",
+            "xlim": [
+                0.9,
+                3.1
+            ],
+            "ylim": [
+                4.0,
+                26.0
+            ],
+            "lines": [
+                {
+                    "label": "Trend A",
+                    "xdata": [
+                        1,
+                        2,
+                        3
+                    ],
+                    "ydata": [
+                        10,
+                        20,
+                        10
+                    ],
+                    "color": "red",
+                    "linestyle": "--",
+                    "linewidth": 1.5,
+                    "marker": "None"
+                },
+                {
+                    "label": "Trend B",
+                    "xdata": [
+                        1,
+                        2,
+                        3
+                    ],
+                    "ydata": [
+                        5,
+                        15,
+                        25
+                    ],
+                    "color": "blue",
+                    "linestyle": "-",
+                    "linewidth": 1.5,
+                    "marker": "o"
+                }
+            ]
+        }
+    ]
+}
